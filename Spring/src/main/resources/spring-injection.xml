@@ -4,14 +4,14 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd" >
         
-<!--         <bean id="injectionService" class="com.imooc.ioc.injection.service.InjectionServiceImpl"> -->
+<!--         <bean id="injectionService" class="cn.edu.tju.scs.ioc.injection.service.InjectionServiceImpl"> -->
 <!--         	<property name="injectionDAO" ref="injectionDAO"></property> -->
 <!--         </bean> -->
 
-		<bean id="injectionService" class="com.imooc.ioc.injection.service.InjectionServiceImpl">
+		<bean id="injectionService" class="cn.edu.tju.scs.ioc.injection.service.InjectionServiceImpl">
         	<constructor-arg name="injectionDAO" ref="injectionDAO"></constructor-arg>
         </bean>
         
-        <bean id="injectionDAO" class="com.imooc.ioc.injection.dao.InjectionDAOImpl"></bean>
+        <bean id="injectionDAO" class="cn.edu.tju.scs.ioc.injection.dao.InjectionDAOImpl"></bean>
 	
  </beans>

@@ -10,12 +10,12 @@
         
         
         
-<!--         <bean id="autoWiringService" class="com.imooc.autowiring.AutoWiringService" > -->
+<!--         <bean id="autoWiringService" class="cn.edu.tju.scs.autowiring.AutoWiringService" > -->
 <!--            <property name="autoWiringDao" ref="autoWiringDao"></property> -->
 <!--         </bean> -->
-        <bean id="autoWiringService" class="com.imooc.autowiring.AutoWiringService"></bean>
+        <bean id="autoWiringService" class="cn.edu.tju.scs.autowiring.AutoWiringService"></bean>
         
         
-        <bean id="autoWiringDAO12" class="com.imooc.autowiring.AutoWiringDAO" ></bean>
+        <bean id="autoWiringDAO12" class="cn.edu.tju.scs.autowiring.AutoWiringDAO" ></bean>
 	
  </beans>

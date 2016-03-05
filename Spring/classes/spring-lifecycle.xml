@@ -5,6 +5,6 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd" 
         default-init-method="defautInit" default-destroy-method="defaultDestroy">
         
-        <bean id="beanLifeCycle" class="com.imooc.lifecycle.BeanLifeCycle"  init-method="start" destroy-method="stop"></bean>
+        <bean id="beanLifeCycle" class="cn.edu.tju.scs.lifecycle.BeanLifeCycle"  init-method="start" destroy-method="stop"></bean>
 	
  </beans>

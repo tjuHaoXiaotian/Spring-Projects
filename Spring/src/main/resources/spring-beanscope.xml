@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd" >
         
-<!--         <bean id="beanScope" class="com.imooc.bean.BeanScope" scope="singleton"></bean> -->
+<!--         <bean id="beanScope" class="cn.edu.tju.scs.bean.BeanScope" scope="singleton"></bean> -->
         
-        <bean id="beanScope" class="com.imooc.bean.BeanScope" scope="prototype"></bean>
+        <bean id="beanScope" class="cn.edu.tju.scs.bean.BeanScope" scope="prototype"></bean>
         
  </beans>
