@@ -8,7 +8,7 @@
 	<classpathentry kind="lib" path="lib/spring/spring-aop-4.0.5.RELEASE.jar" sourcepath="lib/resource/spring/spring-aop-4.0.5.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-aspects-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-beans-4.0.5.RELEASE.jar" sourcepath="lib/resource/spring/spring-beans-4.0.5.RELEASE-sources.jar"/>
-	<classpathentry kind="lib" path="lib/spring/spring-context-4.0.5.RELEASE.jar" sourcepath="lib/resource/spring/spring-context-4.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-context-4.0.5.RELEASE.jar" sourcepath="lib/spring/spring-context-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-context-support-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-core-4.0.5.RELEASE.jar" sourcepath="lib/resource/spring/spring-core-4.0.5.RELEASE-sources.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-expression-4.0.5.RELEASE.jar"/>

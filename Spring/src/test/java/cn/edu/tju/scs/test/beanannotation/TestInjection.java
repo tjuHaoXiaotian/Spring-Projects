@@ -19,6 +19,7 @@ public class TestInjection extends UnitTestBase {
 	public void testAutowired() {
 		InjectionService service = super.getBean("injectionServiceImpl");
 		service.save("This is autowired.");
+		
 	}
 	
 	@Test

@@ -8,10 +8,14 @@ import cn.edu.tju.scs.beanannotation.injection.dao.InjectionDAO;
 @Service
 public class InjectionServiceImpl implements InjectionService {
 	
-//	@Autowired
+	@Autowired
 	private InjectionDAO injectionDAO;
 	
-	@Autowired
+	public InjectionServiceImpl(){
+		
+	}
+	
+//	@Autowired
 	public InjectionServiceImpl(InjectionDAO injectionDAO) {
 		this.injectionDAO = injectionDAO;
 	}

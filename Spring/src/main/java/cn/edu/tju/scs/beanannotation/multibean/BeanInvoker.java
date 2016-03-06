@@ -17,7 +17,7 @@ public class BeanInvoker {
 	private Map<String, BeanInterface> map;
 	
 	@Autowired
-	@Qualifier("beanImplTwo")
+	@Qualifier("beanImplTwo")    // Qualifier注解可以縮小同类型的范围，指定 id 的某类型的bean
 	private BeanInterface beanInterface;
 	
 	public void say() {
