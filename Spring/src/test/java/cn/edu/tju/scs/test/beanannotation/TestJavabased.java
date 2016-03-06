@@ -18,7 +18,7 @@ public class TestJavabased extends UnitTestBase {
 	
 	@Test
 	public void test() {
-		Store store = super.getBean("stringStore");
+		Store store = super.getBean("getStringStore");
 		System.out.println(store.getClass().getName());
 	}
 	

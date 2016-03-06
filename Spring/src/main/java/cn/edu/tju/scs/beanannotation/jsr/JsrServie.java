@@ -8,15 +8,31 @@ import javax.inject.Named;
 
 import org.springframework.stereotype.Service;
 
-//@Service
-@Named
+/*@Service
 public class JsrServie {
 	
-//	@Resource
-//	@Inject
+	@Resource
 	private JsrDAO jsrDAO;
 	
 //	@Resource
+	public void setJsrDAO(JsrDAO jsrDAO) {
+		this.jsrDAO = jsrDAO;
+	}
+	
+
+	public void save() {
+		jsrDAO.save();
+	}
+	
+}*/
+
+
+@Named
+public class JsrServie {
+	
+//	@Inject
+	private JsrDAO jsrDAO;
+	
 	@Inject
 	public void setJsrDAO(@Named("jsrDAO") JsrDAO jsrDAO) {
 		this.jsrDAO = jsrDAO;
