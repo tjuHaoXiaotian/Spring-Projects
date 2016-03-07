@@ -15,7 +15,11 @@
 	<classpathentry kind="lib" path="lib/spring/spring-framework-bom-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-instrument-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-instrument-tomcat-4.0.5.RELEASE.jar"/>
-	<classpathentry kind="lib" path="lib/spring/spring-jdbc-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-jdbc-4.0.5.RELEASE.jar" sourcepath="H:/Java_Further_study/spring-mvc study/5427bf120001c7b000000000/Spring/lib/spring/spring-jdbc-4.0.5.RELEASE.jar">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="lib/spring/spring-jms-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-messaging-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-orm-4.0.5.RELEASE.jar"/>
@@ -32,5 +36,8 @@
 	<classpathentry kind="lib" path="lib/aspect/aopalliance-1.0.jar"/>
 	<classpathentry kind="lib" path="lib/aspect/aspectjweaver-1.7.4.jar"/>
 	<classpathentry kind="lib" path="lib/javax.inject.jar"/>
+	<classpathentry kind="lib" path="lib/apache/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/c3p0/c3p0-0.9.5.2.jar" sourcepath="lib/c3p0/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/jdbc/mysql-connector-java-5.1.34.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
